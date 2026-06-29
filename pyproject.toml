@@ -1,0 +1,15 @@
+[project]
+name = "sqlalchemy_pg"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "ryan", email = "150310208+berserkduck@users.noreply.github.com"},
+]
+dependencies = ["sqlalchemy>=2.0.51", "tabulate>=0.10.0"]
+requires-python = "==3.14.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
