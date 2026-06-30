@@ -1,5 +1,5 @@
 [project]
-name = "sqlalchemy_pg"
+name = "how_to_use_sqlalchemy"
 version = "0.1.0"
 description = "Default template for PDM package"
 authors = [
