@@ -1,4 +1,5 @@
 ## 项目介绍
+
 本项目使用[力扣数据库题目](https://leetcode.cn/problemset/database/)让使用者熟悉 [SQLAlchemy 2.0 ](https://docs.sqlalchemy.org/en/20/)的编程接口
 
 leetcode目录中的每个模块对应一道力扣数据库题目，模块内提供以下内容：
@@ -14,6 +15,7 @@ leetcode目录中的每个模块对应一道力扣数据库题目，模块内提
 以 [175. 组合两个表](https://leetcode.cn/problems/combine-two-tables/description/) 为例
 
 初始化环境
+
 ```bash
 pdm init
 ```
@@ -30,17 +32,17 @@ pdm install
 pdm run python .\leetcode\175_combine_two_tables.py
 ```
 
-
 ## 已完成的题目
 
-| 题目                                                                                                            | 知识点                             |
-| --------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
-| [175. 组合两个表](https://leetcode.cn/problems/combine-two-tables/description/)                                 | 左外连接                           |
-| [176. 第二高的薪水](https://leetcode.cn/problems/second-highest-salary/description/)                            | 子查询、distinct、排序、分页、别名 |
-| [178. 分数排名](https://leetcode.cn/problems/rank-scores/description/)                                          | dense_rank                         |
-| [181. 超过经理收入的员工](https://leetcode.cn/problems/employees-earning-more-than-their-managers/description/) | 自连接、别名                       |
-| [182. 查找重复的电子邮箱](https://leetcode.cn/problems/duplicate-emails/)                                       | 分组、having、count                |
-| [595. 大的国家](https://leetcode.cn/problems/big-countries/description/)                                        |     or                               |
+| 题目                                                                                                            | 知识点                                           |
+| --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| [175. 组合两个表](https://leetcode.cn/problems/combine-two-tables/description/)                                 | 左外连接                                         |
+| [176. 第二高的薪水](https://leetcode.cn/problems/second-highest-salary/description/)                            | 子查询、distinct、排序、分页、别名               |
+| [178. 分数排名](https://leetcode.cn/problems/rank-scores/description/)                                          | dense_rank                                       |
+| [180. 连续出现的数字](https://leetcode.cn/problems/consecutive-numbers/description/)                            | 子查询、row_number、别名、分组、having、distinct |
+| [181. 超过经理收入的员工](https://leetcode.cn/problems/employees-earning-more-than-their-managers/description/) | 自连接、别名                                     |
+| [182. 查找重复的电子邮箱](https://leetcode.cn/problems/duplicate-emails/)                                       | 分组、having、count                              |
+| [595. 大的国家](https://leetcode.cn/problems/big-countries/description/)                                        | or                                               |
 
 ## 参考资料
 
