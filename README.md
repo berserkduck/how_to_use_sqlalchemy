@@ -42,6 +42,7 @@ pdm run python .\leetcode\175_combine_two_tables.py
 | [180. 连续出现的数字](https://leetcode.cn/problems/consecutive-numbers/description/)                            | 子查询、row_number、别名、分组、having、distinct |
 | [181. 超过经理收入的员工](https://leetcode.cn/problems/employees-earning-more-than-their-managers/description/) | 自连接、别名                                     |
 | [182. 查找重复的电子邮箱](https://leetcode.cn/problems/duplicate-emails/)                                       | 分组、having、count                              |
+| [185. 部门工资前三高的员工](https://leetcode.cn/problems/department-top-three-salaries/description/)            | 子查询、dense_rank、内连接                       |
 | [595. 大的国家](https://leetcode.cn/problems/big-countries/description/)                                        | or                                               |
 
 ## 参考资料
