@@ -139,4 +139,4 @@ if __name__ == "__main__":
 
         session.commit()
 
-        print_tabulate_formatted_result(result=Solution.orm(session))
+        print_tabulate_formatted_result(result=Solution().orm(session))
