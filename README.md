@@ -42,7 +42,11 @@ pdm run python .\leetcode\175_combine_two_tables.py
 | [180. 连续出现的数字](https://leetcode.cn/problems/consecutive-numbers/description/)                            | 子查询、row_number、别名、分组、having、distinct |
 | [181. 超过经理收入的员工](https://leetcode.cn/problems/employees-earning-more-than-their-managers/description/) | 自连接、别名                                     |
 | [182. 查找重复的电子邮箱](https://leetcode.cn/problems/duplicate-emails/)                                       | 分组、having、count                              |
+| [183. 从不订购的客户](https://leetcode.cn/problems/customers-who-never-order/description/)                     | 左外连接、is null                               |
+| [184. 部门工资最高的员工](https://leetcode.cn/problems/department-highest-salary/description/)                  | 子查询、dense_rank、外连接                       |
 | [185. 部门工资前三高的员工](https://leetcode.cn/problems/department-top-three-salaries/description/)            | 子查询、dense_rank、内连接                       |
+| [196. 删除重复的电子邮件](https://leetcode.cn/problems/delete-duplicate-emails/description/)                   | 自连接、delete、子查询                          |
+| [197. 上升的温度](https://leetcode.cn/problems/rising-temperature/description/)                                | 自连接、func.date()、日期处理                   |
 | [595. 大的国家](https://leetcode.cn/problems/big-countries/description/)                                        | or                                               |
 
 ## 参考资料
